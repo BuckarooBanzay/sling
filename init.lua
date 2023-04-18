@@ -6,7 +6,6 @@ throwing.register_bow("sling:sling", {
   wield_image = "sling_sling_wield.png",
   cooldown = 1,
   delay = 0.4,
-  sound = "sling_throw",
   allow_shot = function(player, itemstack, index)
     sling_sneak = player:get_player_control().sneak
     local ok = itemstack:get_name() ~= ""
